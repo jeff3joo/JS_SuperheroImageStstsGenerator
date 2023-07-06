@@ -1,0 +1,35 @@
+h1,p,.searchengine,.generate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    background-color: aliceblue;
+}
+body{
+    background-image: url(Background.jpeg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+input{
+    margin-right: 20px;
+    border: solid black;
+    border-radius: 10px;
+}
+input,button{
+    font-size: 17px;
+    border-radius: 10px;
+}
+.image{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+#image,#imagename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagestat,#imagename{
+    color: aliceblue;
+}
